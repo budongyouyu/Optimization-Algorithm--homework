@@ -1,0 +1,99 @@
+\chapter{王竹溪. chapter1}
+
+\begin{question}[p24,2] $f,g,h$都是二独立变量$x,y$的函数\footnote{$(\frac{\partial f}{\partial g})_h$为保持$h$不变求$f$对$g$的偏导}
+
+\begin{enumerate}[itemindent=2em]
+    \item[(1)] $(\partial f/\partial g)_h=1/(\partial g/\partial f)_h$;
+    \item[(2)] $(\partial f/\partial g)_x=(\partial f/\partial y)/(\partial g/\partial y)$ ;
+    \item[(3)] $(\partial y/\partial x)_f=-(\partial f/\partial x)/(\partial f/\partial y)$ ;
+    \item[(4)] $(\partial f/\partial g)_h(\partial g/\partial h)_f(\partial h/\partial f)_g=-1$ ;
+    \item[(5)] $(\partial f/\partial x)_g=(\partial f/\partial x)+(\partial f/\partial y)(\partial y/\partial x)$; 
+\end{enumerate}
+
+\end{question}
+
+\begin{mdframed}[linewidth=0pt, backgroundcolor=gray!15]
+    \begin{pf}.
+        \begin{enumerate}[itemindent=2em]
+            \item[(1)] 根据隐函数求导链式法则
+            \begin{equation}
+                \frac{\partial f}{\partial g}\cdot \frac{\partial g}{\partial f} = \frac{\partial f}{\partial f}=1
+            \end{equation}
+            \item[(2)] 根据隐函数求导链式法则和反函数定理
+            \begin{equation}
+                \frac{\partial f}{\partial g}=\frac{\partial f}{\partial y}\cdot \frac{\partial y}{\partial g}=\frac{\partial f}{\partial y}/\frac{\partial g}{\partial y}
+            \end{equation}
+            \item[(3)]
+            \item[(4)]
+            \item[(5)]   
+        \end{enumerate}
+    \end{pf}
+\end{mdframed}
+
+\begin{question}[p24,3] $f,g,h,k$都是二独立变量$x,y$的函数，且
+    \begin{equation}
+        \frac{\partial (f,g)}{\partial (x,y)}=
+        \left|
+        \begin{array}{ccc}
+            \frac{\partial f}{\partial x} & \hspace{1em} & \frac{\partial f}{\partial y} \\
+            \frac{\partial g}{\partial x} & \hspace{1em} & \frac{\partial g}{\partial y}
+        \end{array}
+        \right|=\frac{\partial f}{\partial x}\frac{\partial g}{\partial y}-\frac{\partial f}{\partial y}\frac{\partial g}{\partial x}
+    \end{equation}
+    证明
+    \begin{enumerate}[itemindent=2em]
+        \item[(1)] $\partial (f,g)/\partial (h,k)=[\partial (f,g)/\partial (x,y)]/[\partial (h,k)/\partial (x,y)]$;
+        \item[(2)] $\partial (f,g)/\partial (x,y)=1/(\partial (x,y)/\partial (f,g))$ ;
+        \item[(3)] $(\partial f/\partial g)_h=\partial (f,h)/\partial (g,h)$ ;
+        \item[(4)] $(\partial f/\partial g)_h=(\partial(f,h)/\partial (x,y))/(\partial (g,h)/\partial (x,y))$ ;
+        \item[(5)] $(\partial f/\partial x)_g=(\partial (f,g)/\partial (x,y))/(\partial g/\partial y)$
+    \end{enumerate}
+\end{question}
+
+\begin{mdframed}[linewidth=0pt, backgroundcolor=gray!15]
+    \begin{pf}
+        
+    \end{pf}
+\end{mdframed}
+
+上述结论可以推广到任意$n$个独立变量的函数上。
+
+\begin{question}[p25,6]
+    证明理想气体的膨胀系数、压强系数以及压缩系数各为$\alpha=\beta=1/T,\kappa = 1/\rho$
+\end{question}
+
+\begin{mdframed}[linewidth=0pt, backgroundcolor=gray!15]
+    \begin{pf}
+        
+    \end{pf}
+\end{mdframed}
+
+\begin{question}[p25,7]
+    证明任何一个二独立变量$\partial,p$的物体，其物态方程可以通过实验观测的膨胀系数$\alpha$和压缩系数$\kappa$根据下列积分得到
+    \begin{equation}
+        \ln V=\int (\alpha d\partial-\kappa dp)
+    \end{equation}
+
+    应用这个公式到理想气体，把积分求出，选$T$为温标，并假设$\alpha=1/T,\kappa=1/p$
+\end{question}
+
+\begin{mdframed}[linewidth=0pt, backgroundcolor=gray!15]
+    \begin{pf}
+        
+    \end{pf}
+\end{mdframed}
+
+\begin{question}[p25,8]
+    假如某一测温物质的定压温度计的温标等于定容温度计的温标，证明这一物质的物态方程为
+    \begin{equation}
+        \partial = \alpha(p+a)(V+b)+c
+    \end{equation}
+
+    其中$\alpha,a,b,c$都是常数，$\partial$为这一物质的定压温度计和定容温度计所测量的共同的温度，
+\end{question}
+
+\begin{mdframed}[linewidth=0pt, backgroundcolor=gray!15]
+    \begin{pf}
+        
+    \end{pf}
+\end{mdframed}
